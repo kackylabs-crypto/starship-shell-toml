@@ -1,0 +1,21 @@
+
+format = """
+[](bold blue) [$username](bold cyan) \
+[$directory](bold yellow) \
+$character"""
+
+[username]
+show_always = true
+style_user = "bold cyan"
+format = "[$user]($style) "
+
+[directory]
+style = "bold yellow"
+truncation_length = 3
+truncation_symbol = "…/"
+format = "[$path]($style) "
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
